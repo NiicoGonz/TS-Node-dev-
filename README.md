@@ -5,13 +5,13 @@ Este repositorio contiene una configuración inicial para trabajar con Node.js u
 ## Instalación de dependencias
 Para comenzar, asegúrate de tener Node.js instalado en tu sistema. Luego, ejecuta el siguiente comando para instalar TypeScript, TS-Node-dev y otras dependencias necesarias:
 
-npm i -D typescript @types/node ts-node-dev rimraf
+`npm i -D typescript @types/node ts-node-dev rimraf`
 
 
 ## Configuración de TypeScript
 Una vez que las dependencias estén instaladas, inicializa el archivo de configuración de TypeScript. Puedes personalizar esta configuración según tus preferencias. Ejecuta el siguiente comando:
 
-npx tsc --init --outDir dist/ --rootDir src
+`npx tsc --init --outDir dist/ --rootDir src`
 
 ## Scripts disponibles
 Hemos configurado algunos scripts útiles para facilitar el desarrollo, construcción y ejecución de la aplicación.
@@ -19,17 +19,17 @@ Hemos configurado algunos scripts útiles para facilitar el desarrollo, construc
 ### Desarrollo
 El script `dev` utiliza TS-Node-dev para iniciar el servidor en modo de desarrollo. Este script supervisará los cambios en tus archivos TypeScript y reiniciará automáticamente el servidor cuando sea necesario. Ejecuta:
 
-npm run dev
+`npm run dev`
 
 ### Construcción
 El script `build` se encarga de compilar tu código TypeScript en JavaScript y limpiar el directorio de salida (`dist/`). Ejecuta:
 
-npm run build
+`npm run build`
 
 ### Inicio
 El script `start` construirá el proyecto y luego iniciará la aplicación Node.js. Ejecuta:
 
-npm start
+`npm start`
 
 
 ## Recursos adicionales
